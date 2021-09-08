@@ -1,0 +1,57 @@
+/*
+div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.leftSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+        flex-start (left)
+        center
+        flex-end (right)
+        space-around
+        space-between
+        space-evenly
+    
+    height: 300px;
+    flex: 1;
+}
+
+.item1{
+    flex: 1;
+    margin-right: 50px;
+    align-self: center;
+}
+
+.item2, .item3{
+    flex: 4;
+}
+*/
+
+
+
+.rightSection{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    flex: 4
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+    display
+    flex-direction
+    justify-content
+    flex
+    align-items
+    align-self
+
+*/
