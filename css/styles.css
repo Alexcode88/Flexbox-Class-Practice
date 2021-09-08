@@ -52,3 +52,65 @@ div{
     align-self
 
 */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo{
+    margin-right: 50px;
+    vertical-align: center;
+    margin-top: 10px;
+}
+
+.logo > img{
+    width: 55px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: grey;
+}
+
+.menu > li{
+    padding: 10px;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(169, 166, 166, 0.768);
+    padding-bottom: 20px;
+}
+
+.product{
+    flex: 1;
+    border: 1px solid rgba(169, 166, 166, 0.768);
+    border-radius: 8px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
